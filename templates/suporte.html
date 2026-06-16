@@ -1,0 +1,14 @@
+<section class="card narrow-card">
+  <div class="page-tag">Suporte</div>
+  <h1 class="page-title">Abrir chamado</h1>
+  {{alerta}}
+  <form method="post" action="/suporte" class="form-grid cols-1">
+    <div class="field"><label>Assunto</label><input name="assunto" required></div>
+    <div class="field"><label>Descricao</label><textarea name="descricao" required></textarea></div>
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </form>
+</section>
+<section class="card">
+  <div class="section-label">Meus chamados</div>
+  <pre class="data-box">{{lista}}</pre>
+</section>

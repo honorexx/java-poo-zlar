@@ -1,0 +1,16 @@
+<section class="card narrow-card">
+  <div class="page-tag">Morador</div>
+  <h1 class="page-title">Nova solicitacao</h1>
+  <form method="post" action="/solicitar" class="form-grid cols-1">
+    <div class="field"><label>Servico</label><select name="servico">
+      <option>Limpeza pesada</option>
+      <option>Limpeza diaria</option>
+      <option>Baba</option>
+      <option>Cuidador de idosos</option>
+    </select></div>
+    <div class="field"><label>Data</label><input name="data" type="date" value="{{data}}"></div>
+    <div class="field"><label>Endereco</label><input name="endereco" value="{{endereco}}" required></div>
+    <div class="field"><label>Descricao</label><textarea name="descricao" required></textarea></div>
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </form>
+</section>

@@ -1,0 +1,11 @@
+<section class="card">
+  <div class="page-tag">Admin</div>
+  <h1 class="page-title">Chamados de suporte</h1>
+  <pre class="data-box">{{lista}}</pre>
+  <form method="post" action="/admin/suporte" class="form-grid cols-1">
+    <div class="field"><label>ID do chamado</label><input name="id" required></div>
+    <div class="field"><label>Status</label><input name="status" value="resolvido" required></div>
+    <div class="field"><label>Resposta</label><input name="resposta" required></div>
+    <button class="btn btn-primary" type="submit">Responder</button>
+  </form>
+</section>

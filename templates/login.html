@@ -1,0 +1,12 @@
+<section class="card auth-card narrow-card">
+  <div class="page-tag">Login</div>
+  <h1 class="page-title">Acessar como {{tipo}}</h1>
+  {{alerta}}
+  <form method="post" action="/login" class="form-grid cols-1">
+    <input type="hidden" name="tipo" value="{{tipo}}">
+    <div class="field"><label>E-mail ou usuario</label><input name="email" required></div>
+    <div class="field"><label>{{senha}}</label><input name="senha" type="password" required></div>
+    <button class="btn btn-primary" type="submit">Entrar</button>
+  </form>
+  <p>{{cadastro}}</p>
+</section>

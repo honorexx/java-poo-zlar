@@ -1,0 +1,15 @@
+<section class="card auth-card narrow-card">
+  <div class="page-tag">Cadastro</div>
+  <h1 class="page-title">Novo {{tipo}}</h1>
+  {{alerta}}
+  <form method="post" action="/cadastro" class="form-grid cols-1">
+    <input type="hidden" name="tipo" value="{{tipo}}">
+    <div class="field"><label>Nome</label><input name="nome" required></div>
+    <div class="field"><label>E-mail</label><input name="email" type="email" required></div>
+    <div class="field"><label>Telefone</label><input name="telefone"></div>
+    <div class="field"><label>{{campo}}</label><input name="servicoOuEndereco" required></div>
+    <div class="field"><label>Senha</label><input name="senha" type="password" required></div>
+    <div class="field"><label>java</label><input name="java"></div>
+    <button class="btn btn-primary" type="submit">Cadastrar</button>
+  </form>
+</section>
