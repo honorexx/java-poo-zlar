@@ -10,7 +10,7 @@ O objetivo foi deixar o codigo facil de entender, alterar e apresentar.
 Abra a pasta do projeto no IntelliJ ou no terminal:
 
 ```text
-C:\xampp\htdocs\zlar_oficial
+C:\Users\User\OneDrive\Documentos\zlar_oficial
 ```
 
 Para rodar pelo terminal, execute:
