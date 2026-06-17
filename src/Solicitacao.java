@@ -1,4 +1,6 @@
-public class Solicitacao {
+import java.io.Serializable;
+
+public class Solicitacao implements Serializable {
     int id;
     String moradorEmail;
     String moradorNome;

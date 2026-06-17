@@ -1,4 +1,6 @@
-public class Chamado {
+import java.io.Serializable;
+
+public class Chamado implements Serializable {
     int id;
     String usuarioEmail;
     String usuarioNome;
